@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    border: 1px solid black;
+    padding: 40px;
+}
+#child{
+    background-color: rgb(230, 55, 55);
+}
+#parent{
+    background-color: rgb(88, 230, 88);
+}
+#grandParent{
+    background-color: rgb(78, 78, 233);;
+}
+    </style>
+</head>
+<body>
+    <div id="grandParent" class="box">
+        <div id="parent" class="box">
+            <div id="child" class="box"></div>
+        </div>
+    </div>
+    <script src="day1.js"></script>
+</body>
+</html>
+
