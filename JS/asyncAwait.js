@@ -1,0 +1,6 @@
+async function getData()
+{
+    setTimeout(()=>{
+        
+    })
+}
